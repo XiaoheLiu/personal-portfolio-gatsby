@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import styled, { ThemeProvider, createGlobalStyle } from "styled-components"
 import { ModalRoutingContext } from "gatsby-plugin-modal-routing"
 import { Link } from "gatsby"
-import Header from "./Header"
+import Header from "./header"
 
 const theme = {
   teal: "#00ABA9",
