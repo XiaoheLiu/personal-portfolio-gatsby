@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "title": "Athena & Lin's Kitchen",
+      "description": "My family recipe collection built with Gatsby.js. The recipes were saved in markdown files and pulled through GraphQL query's in Gatsby.",
+      "stacks": ["ReactJS", "GatsbyJS", "GraphQL", "JAM Stack", "Markdown"],
+      "image": "kitchen.png",
+      "github": "https://github.com/XiaoheLiu/gatsby-markdown-recipe-blog",
+      "demo": "https://github.com/XiaoheLiu/gatsby-markdown-recipe-blog"
+    },
+    {
       "title": "“百炼成钢” Baizi Journal App",
       "description": "\"Baizi\" means \"100 letters\" in Chinese. This full stack minimalist journal app promps user to write a 100-letter journal everyday - not one letter more, not one letter less.",
       "stacks": ["ReactJS", "Redux", "NodeJS", "ExpressJS", "MongoDB"],
