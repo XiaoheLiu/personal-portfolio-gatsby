@@ -7,11 +7,15 @@ import ProjectStyles from "./styles/ProjectStyles"
 const Project = ({ project }) => {
   return (
     <ProjectStyles className="modal">
-      <div className="image">
-        <ProjectImage imgName={project.image} bigMode={true} />
-      </div>
       <div className="text">
         <h2>{project.title}</h2>
+      </div>
+      <div className="image">
+        {project.images.map(image => (
+          <ProjectImage imgName={image} bigMode={true} key={image} />
+        ))}
+      </div>
+      <div className="text">
         <p>{project.description}</p>
         <div>
           {project.stacks.map(t => (
@@ -40,6 +44,7 @@ Project.propTypes = {
     stacks: PropTypes.arrayOf(String),
     github: PropTypes.string,
     demo: PropTypes.string,
+    images: PropTypes.arrayOf(String),
   }),
 }
 

@@ -15,7 +15,7 @@ const Project = ({ project }) => {
         }}
         className="image"
       >
-        <ProjectImage imgName={project.image} bigMode={false} />
+        <ProjectImage imgName={project.images[0]} bigMode={false} />
       </Link>
 
       <div className="text">
@@ -58,6 +58,7 @@ Project.propTypes = {
     stacks: PropTypes.arrayOf(String),
     github: PropTypes.string,
     demo: PropTypes.string,
+    images: PropTypes.arrayOf(String),
   }),
 }
 

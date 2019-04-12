@@ -11,7 +11,7 @@ const ProjectList = () => (
             title
             description
             stacks
-            image
+            images
             github
             demo
           }
@@ -20,7 +20,7 @@ const ProjectList = () => (
     `}
     render={data =>
       data.dataJson.projects.map(project => (
-        <Project project={project} bigMode={false} key={project.title} />
+        <Project project={project} key={project.title} />
       ))
     }
   />

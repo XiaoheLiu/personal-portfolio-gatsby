@@ -9,6 +9,11 @@ const ProjectStyles = styled.div`
 
   .image {
     display: flex;
+    flex-direction: column;
+    .gatsby-image-wrapper {
+      margin-bottom: 20px;
+      box-shadow: ${props => props.theme.bs};
+    }
   }
 
   .text {

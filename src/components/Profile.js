@@ -19,7 +19,7 @@ const Profile = ({ size }) => {
           profileImage: file(relativePath: { eq: "AthenaProfilePic.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 300) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_tracedSVG
               }
             }
           }

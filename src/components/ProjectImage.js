@@ -10,7 +10,7 @@ const ProjectImage = ({ imgName, bigMode }) => (
           edges {
             node {
               fluid(maxWidth: 500) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_tracedSVG
                 originalName
               }
             }

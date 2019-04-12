@@ -6,7 +6,7 @@ const AboutMe = () => {
     <div className="ten wide column" id="rightColumn">
       <p>
         Hi, I'm Athena Liu! I'm a <strong>PhD student</strong> and a{" "}
-        <strong>web developer</strong> based in Vancouver, Canada.
+        <strong>full stack developer</strong> based in Vancouver, Canada.
       </p>
       <p>
         I am currently working towards my doctorial degree{" "}
@@ -17,16 +17,17 @@ const AboutMe = () => {
         <a target="_blank" rel="noopener noreferrer" href={links.ubcfluid}>
           University of British Columbia
         </a>
-        .{" "}
+        . My research is on the computational simulation and theoretical
+        modeling of high speed jet impingement.
       </p>
       <p>
-        I have a passion for the latest web technology{" "}
+        I also have a passion for the latest web technology{" "}
         <span role="img" aria-label="coding">
           💻
         </span>{" "}
-        , and am always striving to learn and improve my skills by doing fun
-        projects as a hobbyist and as a freelancing developer. My current focus
-        is on ReactJS, which I used to build this site!{" "}
+        , and am always striving to learn and improve my programming skills by
+        doing fun projects as a hobbyist and as a freelancing developer. My
+        current focus is on ReactJS, which I used to build this site!{" "}
       </p>
       <p>
         In my free time, I enjoy cuddling with my cats{" "}
