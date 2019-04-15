@@ -17,8 +17,8 @@ const AboutMe = () => {
         <a target="_blank" rel="noopener noreferrer" href={links.ubcfluid}>
           University of British Columbia
         </a>
-        . My research is on the computational simulation and theoretical
-        modeling of high speed jet impingement.
+        . My research is on the computational and theoretical modeling of high
+        speed liquid jet impingement.
       </p>
       <p>
         I also have a passion for the latest web technology{" "}
@@ -26,8 +26,16 @@ const AboutMe = () => {
           💻
         </span>{" "}
         , and am always striving to learn and improve my programming skills by
-        doing fun projects as a hobbyist and as a freelancing developer. My
-        current focus is on ReactJS, which I used to build this site!{" "}
+        doing fun projects to make people's life better. My current focus is on
+        Django and ReactJS, which I used to build this portfolio (
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/XiaoheLiu/personal-portfolio-gatsby"
+        >
+          check out the code
+        </a>
+        )!{" "}
       </p>
       <p>
         In my free time, I enjoy cuddling with my cats{" "}

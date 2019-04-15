@@ -15,6 +15,9 @@ const ProjectStyles = styled.div`
       box-shadow: ${props => props.theme.bs};
     }
   }
+  &:hover {
+    box-shadow: ${props => props.theme.bs};
+  }
 
   .text {
     max-width: 450px;

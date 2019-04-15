@@ -1,6 +1,7 @@
 {
   "projects": [
     {
+      "id": "django-bloggers",
       "title": "Bloggers - Blog App Powered by Django",
       "description": "A full-featured blog web app built with Django. Users can create posts, update their profiles, and use email to reset their password. Files are manged on AWS S3.",
       "stacks": [
@@ -16,6 +17,7 @@
       "demo": "https://django-bloggers.herokuapp.com/"
     },
     {
+      "id": "handcrafty-react-graphql",
       "title": "Handcrafty - Sell & Shop for Handmade Items",
       "description": "Handcrafty is a full stack online handcrafts store with real credit card checkout. Users can search, sell, edit, add to cart and buy their favorite items.",
       "stacks": [
@@ -32,22 +34,38 @@
       "demo": "https://handcrafty-react.herokuapp.com/"
     },
     {
+      "id": "athena-and-lins-kitchen",
       "title": "Athena & Lin's Kitchen",
       "description": "My family recipe collection built with Gatsby.js. The recipes were saved in markdown files and pulled through GraphQL query's in Gatsby.",
-      "stacks": ["ReactJS", "GatsbyJS", "GraphQL", "JAM Stack", "Markdown"],
+      "stacks": [
+        "ReactJS",
+        "GatsbyJS",
+        "GraphQL",
+        "Markdown",
+        "Styled components💅"
+      ],
       "images": ["kitchen.png"],
       "github": "https://github.com/XiaoheLiu/gatsby-markdown-recipe-blog",
       "demo": "💅"
     },
     {
+      "id": "baizi-journal-app",
       "title": "“百炼成钢” Baizi Journal App",
       "description": "\"Baizi\" means \"100 letters\" in Chinese. This full stack minimalist journal app promps user to write a 100-letter journal everyday - not one letter more, not one letter less.",
-      "stacks": ["ReactJS", "Redux", "NodeJS", "ExpressJS", "MongoDB"],
+      "stacks": [
+        "ReactJS",
+        "Redux",
+        "NodeJS",
+        "ExpressJS",
+        "MongoDB",
+        "SemanticUI"
+      ],
       "images": ["BaiziJournal.png"],
       "github": "https://github.com/XiaoheLiu/baizi-journal-front-end",
       "demo": "https://baizi.herokuapp.com"
     },
     {
+      "id": "guess-country-flags",
       "title": "Country Flag Guessing Game",
       "description": "An educational game that asks the player to guess which country the displayed country flag corresponds to. The country data are fetched from the REST country API.",
       "stacks": ["ReactJS", "Axios", "RESTful API"],
@@ -56,6 +74,7 @@
       "demo": "https://guess-country-flag.herokuapp.com/"
     },
     {
+      "id": "guess-rgb-colors",
       "title": "RGB Color Guessing Game",
       "description": "Find the square that has the color of the given RGB value. A game built with vanilla JS with a smooth, modern look.",
       "stacks": ["JavsScript", "HTML5", "CSS3"],
@@ -64,6 +83,7 @@
       "demo": "https://codepen.io/sd_athena/full/NEyeWz/"
     },
     {
+      "id": "johannes-vermeer",
       "title": "Johannes Vermeer Tribute Page",
       "description": "A tribute page to the Dutch painter Johannes Vermeer in the 17th century.",
       "stacks": ["HTML5", "CSS3"],

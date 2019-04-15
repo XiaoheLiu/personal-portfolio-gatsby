@@ -10,7 +10,7 @@ exports.createPages = ({ actions }) => {
   // Create pages for each JSON entry.
   data.projects.forEach(project => {
     createPage({
-      path: `projects/${project.title}`,
+      path: `projects/${project.id}`,
       component: template,
 
       // Send additional data to page from JSON (or query inside template)

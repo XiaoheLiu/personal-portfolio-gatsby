@@ -9,7 +9,7 @@ const Project = ({ project }) => {
   return (
     <ProjectStyles>
       <Link
-        to={`/projects/${project.title}`}
+        to={`/projects/${project.id}`}
         state={{
           modal: true,
         }}
@@ -20,7 +20,7 @@ const Project = ({ project }) => {
 
       <div className="text">
         <Link
-          to={`/projects/${project.title}`}
+          to={`/projects/${project.id}`}
           state={{
             modal: true,
           }}
@@ -53,6 +53,7 @@ const Project = ({ project }) => {
 
 Project.propTypes = {
   project: PropTypes.shape({
+    id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     stacks: PropTypes.arrayOf(String),

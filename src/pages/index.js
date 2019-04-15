@@ -7,7 +7,7 @@ import AboutMe from "../components/AboutMe"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="About" />
     <Profile size={250} />
     <Links />
     <AboutMe />

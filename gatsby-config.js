@@ -1,8 +1,20 @@
 module.exports = {
   siteMetadata: {
     title: `Athena Liu - Portfolio`,
-    description: `Athena Liu's personal portfolio built with Gatsby.js`,
+    description: `Athena (Xiaohe) Liu's personal portfolio built with Gatsby.js. Learn more about her full stack web development projects.`,
     author: `Athena Liu`,
+    keywords: [
+      `Athena Liu`,
+      `Xiaohe Liu`,
+      `portfolio`,
+      `Gatsby`,
+      `projects`,
+      `python`,
+      `javascript`,
+      `full stack`,
+      `personal`,
+      `website`,
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

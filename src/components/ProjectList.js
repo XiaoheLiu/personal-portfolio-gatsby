@@ -8,6 +8,7 @@ const ProjectList = () => (
       query {
         dataJson {
           projects {
+            id
             title
             description
             stacks
@@ -20,7 +21,7 @@ const ProjectList = () => (
     `}
     render={data =>
       data.dataJson.projects.map(project => (
-        <Project project={project} key={project.title} />
+        <Project project={project} key={project.id} />
       ))
     }
   />
