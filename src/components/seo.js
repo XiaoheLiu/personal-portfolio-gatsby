@@ -28,7 +28,6 @@ function SEO({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
   const keywords = site.siteMetadata.keywords
-  console.log(keywords)
   return (
     <Helmet
       htmlAttributes={{
@@ -68,6 +67,10 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: "google-site-verification",
+          content: "CoyVE8eQjxFYK17GejjfjutDxaN24pd_8dV67cZiTcQ",
         },
       ]
         .concat(
