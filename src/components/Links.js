@@ -19,31 +19,62 @@ const StyledButton = styled.a`
   font-size: 1.4rem;
   padding: 0.5rem 1.5rem;
   display: inline-block;
+  &:hover {
+    transform: scale(1.05);
+  }
+  transition: all 0.3s;
+`
+
+const StyledIcon = styled.a`
+  transition: all 0.3s;
+  &:hover {
+    transform: scale(1.1);
+  }
 `
 
 const Links = () => {
   return (
     <LinkStyles>
-      <StyledButton className="ui teal basic button" target="_blank">
+      <StyledButton
+        className="ui teal basic button"
+        target="_blank"
+        href={links.resume}
+      >
         Resumé
       </StyledButton>
       <div className="icons">
-        <a target="_blank" rel="noopener noreferrer" href={links.linkedin}>
+        <StyledIcon
+          target="_blank"
+          rel="noopener noreferrer"
+          href={links.linkedin}
+        >
           <IoLogoLinkedin />
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href={links.github}>
+        </StyledIcon>
+        <StyledIcon
+          target="_blank"
+          rel="noopener noreferrer"
+          href={links.github}
+        >
           <IoLogoGithub />{" "}
-        </a>
-        <a href={links.mailto}>
+        </StyledIcon>
+        <StyledIcon href={links.mailto}>
           <IoIosMail />
-        </a>
+        </StyledIcon>
 
-        <a target="_blank" rel="noopener noreferrer" href={links.instagram}>
+        <StyledIcon
+          target="_blank"
+          rel="noopener noreferrer"
+          href={links.instagram}
+        >
           <IoLogoInstagram />
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href={links.facebook}>
+        </StyledIcon>
+        <StyledIcon
+          target="_blank"
+          rel="noopener noreferrer"
+          href={links.facebook}
+        >
           <IoLogoFacebook />
-        </a>
+        </StyledIcon>
       </div>
     </LinkStyles>
   )

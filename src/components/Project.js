@@ -7,7 +7,7 @@ import ProjectStyles from "./styles/ProjectStyles"
 
 const Project = ({ project }) => {
   return (
-    <ProjectStyles>
+    <ProjectStyles className="hover-effect">
       <Link
         to={`/projects/${project.id}`}
         state={{

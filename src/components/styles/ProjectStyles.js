@@ -15,7 +15,7 @@ const ProjectStyles = styled.div`
       box-shadow: ${props => props.theme.bs};
     }
   }
-  &:hover {
+  &.hover-effect:hover {
     box-shadow: ${props => props.theme.bs};
   }
 
