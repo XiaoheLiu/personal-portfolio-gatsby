@@ -54,11 +54,11 @@ const AboutMe = () => {
         <a target="_blank" rel="noopener noreferrer" href={links.stampcarving}>
           stamp carving
         </a>
-        . I am also training to get my blue cord in historical rapier fencing{" "}
-        <span role="img" aria-label="sword">
-          ⚔{" "}
-        </span>
-        this year.
+        . I also love cooking at home 🥐🍳 - checkout{" "}
+        <a target="_blank" rel="noopener noreferrer" href={links.recipes}>
+          my family recipe collections
+        </a>
+        .
       </p>{" "}
       <p>
         Feel free to <a href={links.mailto}>email me</a> if you would like to

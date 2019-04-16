@@ -9,6 +9,7 @@ const links = {
   origami: "https://www.instagram.com/p/BeOyfR8nTbH/",
   stampcarving: "https://www.instagram.com/p/BdLii-hHiue/",
   ubcfluid: "http://mech.ubc.ca/research/thermofluids/",
+  recipes: "https://recipes.athenaliu.space/",
 }
 
 export default links
