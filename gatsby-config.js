@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Athena Liu - Portfolio`,
-    description: `Athena (Xiaohe) Liu's personal portfolio built with Gatsby.js. Learn more about her full stack web development projects.`,
-    author: `Athena Liu`,
+    title: `Athena (Xiaohe) Liu - Portfolio`,
+    description: `Athena (Xiaohe) Liu is a PhD student and a full stack web developer based in Vancouver, Canada. Checkout her personal portfolio built with Gatsby.js, and learn more about her programming projects.`,
+    author: `Athena (Xiaohe) Liu 刘小禾`,
     keywords: [
       `Athena Liu`,
       `Xiaohe Liu`,
@@ -14,6 +14,7 @@ module.exports = {
       `full stack`,
       `personal`,
       `website`,
+      `developer`,
     ],
   },
   plugins: [

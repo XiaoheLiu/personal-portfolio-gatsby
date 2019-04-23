@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div className="ten wide column" id="rightColumn">
       <p>
-        Hi, I'm Athena Liu! I'm a <strong>PhD student</strong> and a{" "}
+        Hi, I'm Athena (Xiaohe) Liu! I'm a <strong>PhD student</strong> and a{" "}
         <strong>full stack developer</strong> based in Vancouver, Canada.
       </p>
       <p>
