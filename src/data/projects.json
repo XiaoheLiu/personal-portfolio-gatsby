@@ -1,13 +1,34 @@
 {
   "projects": [
     {
+      "id": "swordrama",
+      "title": "SwordRama - Sword Recommender & Reviews",
+      "description": "SwordRama is a review platform and a recommendation system to share information and get insights on HEMA (Historical European Martial Arts) swords. Users can browse, filter, search and comment on the swords. They will also get a personalized recommendation list based on machine learning algorithm.",
+      "stacks": [
+        "Django",
+        "Python",
+        "scilit-learn",
+        "scipy",
+        "numpy",
+        "Heroku",
+        "SemanticUI"
+      ],
+      "images": [
+        "sword-recommendation.png",
+        "sword-filter.png",
+        "sword-detail.png"
+      ],
+      "github": "https://github.com/XiaoheLiu/sword-recommender",
+      "demo": "https://swordrama.herokuapp.com/"
+    },
+    {
       "id": "django-bloggers",
       "title": "Bloggers - Blog App Powered by Django",
       "description": "A full-featured blog web app built with Django. Users can create posts, update their profiles, and use email to reset their password. Files are manged on AWS S3.",
       "stacks": [
-        "Python",
         "Django",
-        "PostgreSQL",
+        "Python",
+        "SQLite",
         "AWS S3",
         "Heroku",
         "Bootstrap 4"
@@ -23,11 +44,12 @@
       "stacks": [
         "ReactJS",
         "NextJS",
-        "Apollo",
+        "Apollo-Client",
+        "Styled components💅",
         "GraphQL",
+        "PostgreSQL",
         "Jest",
-        "Enzyme",
-        "Styled components💅"
+        "Enzyme"
       ],
       "images": ["handcrafty-home.png", "handcrafty-orders.png"],
       "github": "https://github.com/XiaoheLiu/handcrafty-react-graphql",
