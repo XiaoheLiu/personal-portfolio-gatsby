@@ -17,10 +17,10 @@ const AboutMe = () => {
           University of British Columbia
         </a>
         . My research tries to understand the physics of high
-        speed liquid jet impingement, using a mixed approach of computational simulation, theoretical modeling and experiments.
+        speed liquid jet impingement, using a mixed approach of computational simulation, theoretical modeling and experimental method.
       </p>
       <p>
-        Apart from my studies in fluids, I also enjoy working with data - from visualizing experimental data to training deep learning algorithms for generating predictions. Since 2018, I have been working as teaching assistant for "MECH305: Data Analysis and Statistics", creating and teaching tutorials for 3rd year undergrads on the subject of statistics and machine learning in MATLAB and python.
+        Apart from my studies in fluids, I also enjoy working with data - from visualizing experimental data to training deep learning algorithms for generating predictions. Since 2018, I have been working as teaching assistant for "MECH305: Data Analysis and Statistics" at UBC, creating and teaching tutorials for 3rd year undergrads on the subject of statistics and machine learning with MATLAB and python.
       </p>
       <p>
         In my free time, I enjoy cuddling with my cats{" "}
@@ -39,7 +39,7 @@ const AboutMe = () => {
         <a target="_blank" rel="noopener noreferrer" href={links.recipes}>
           my family recipe collections
         </a>
-        . I am also a historical fencing practitioner at the Scholar level.
+        . I am also a <a target="_blank" href="https://www.academieduello.com/news-blog/what-are-the-duello-rank-levels/"> historical fencing practitioner </a> at the Scholar level.
       </p>{" "}
       <p>
         Feel free to <a href={links.mailto}>email me</a> if you would like to

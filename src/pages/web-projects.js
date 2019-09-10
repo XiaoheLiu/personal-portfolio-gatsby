@@ -4,10 +4,10 @@ import Profile from "../components/Profile"
 import Links from "../components/Links"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ProjectList from "../components/ProjectList"
+import ProjectListFiltered from "../components/ProjectListFiltered"
 import ProjectFilter from "../components/ProjectFilter"
 
-const Projects = () => (
+const WebProjects = () => (
   <Layout>
     <SEO title="Projects" />
     <div
@@ -22,10 +22,10 @@ const Projects = () => (
       </div>
       <Links />
     </div>
-    <h4> I do a variety of projects out of curiosity of reasons behind the data, and my passion for programming. Here are just a few interesting ones. </h4>
+    <h4>I got interested in web development some time ago, especially in React.js and Django. Here are some fun web apps that I have built. </h4>
     <ProjectFilter/>
-    <ProjectList />
+    <ProjectListFiltered fltr="web"/>
   </Layout>
 )
 
-export default Projects
+export default WebProjects

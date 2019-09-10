@@ -2,7 +2,7 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Project from "./Project"
 
-const ProjectList = () => (
+const ProjectListFiltered = ({fltr}) => (
   <StaticQuery
     query={graphql`
       query {
@@ -21,11 +21,11 @@ const ProjectList = () => (
       }
     `}
     render={data =>
-      data.dataJson.projects.map(project => (
+      data.dataJson.projects.filter(p => p.type == fltr).map(project => (
         <Project project={project} key={project.id} />
       ))
     }
   />
 )
 
-export default ProjectList
+export default ProjectListFiltered
