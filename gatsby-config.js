@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Athena (Xiaohe) Liu - Portfolio`,
-    description: `Athena (Xiaohe) Liu is a PhD student and a full stack web developer based in Vancouver, Canada. Checkout her personal portfolio built with Gatsby.js, and learn more about her programming projects.`,
+    description: `Athena (Xiaohe) Liu is a PhD candidate in fluid dynamics at the University of British Columbia. She is also an amateur data scientist / machine learning engineer. Checkout her personal portfolio and learn more about her projects.`,
     author: `Athena (Xiaohe) Liu 刘小禾`,
     keywords: [
       `Athena Liu`,
@@ -15,6 +15,8 @@ module.exports = {
       `personal`,
       `website`,
       `developer`,
+      `data scientist`,
+      `machine learning`
     ],
   },
   plugins: [

@@ -1,4 +1,5 @@
 import React from "react"
+import { IoLogoGithub} from "react-icons/io"
 import PropTypes from "prop-types"
 import styled, { ThemeProvider, createGlobalStyle } from "styled-components"
 import { ModalRoutingContext } from "gatsby-plugin-modal-routing"
@@ -53,7 +54,7 @@ const Layout = ({ children }) => (
           <div
             style={{
               margin: "0 auto",
-              maxWidth: "700px",
+              maxWidth: "800px",
               width: "90%",
               padding: `0px 1.0875rem 1.45rem`,
               paddingTop: 0,
@@ -67,7 +68,13 @@ const Layout = ({ children }) => (
 
       <Footer>
         <p>~~~</p>© {new Date().getFullYear()}, Built with 💚 by{" "}
-        <span> Athena Liu</span>
+        <span> Athena Liu | <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/XiaoheLiu/personal-portfolio-gatsby"
+        >
+          <IoLogoGithub /> Code
+        </a></span>
       </Footer>
     </div>
   </ThemeProvider>
